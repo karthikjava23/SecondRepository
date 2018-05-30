@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31" started-at="2017-11-14T13:37:47Z" finished-at="2017-11-14T13:37:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31" started-at="2017-11-14T13:37:47Z" finished-at="2017-11-14T13:37:47Z">
+      <class name="com.testngSample.SampleDependsTests">
+        <test-method status="PASS" signature="Testsuite()[pri:0, instance:com.testngSample.SampleDependsTests@50c87b21]" name="Testsuite" is-config="true" duration-ms="16" started-at="2017-11-14T19:07:47Z" finished-at="2017-11-14T19:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testsuite -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.testngSample.SampleDependsTests@50c87b21]" name="test3" duration-ms="0" started-at="2017-11-14T19:07:47Z" depends-on-methods="com.testngSample.SampleDependsTests.test2" finished-at="2017-11-14T19:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.testngSample.SampleDependsTests@50c87b21]" name="test1" duration-ms="0" started-at="2017-11-14T19:07:47Z" depends-on-methods="com.testngSample.SampleDependsTests.test2" finished-at="2017-11-14T19:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.testngSample.SampleDependsTests@50c87b21]" name="test2" duration-ms="0" started-at="2017-11-14T19:07:47Z" finished-at="2017-11-14T19:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="After()[pri:0, instance:com.testngSample.SampleDependsTests@50c87b21]" name="After" is-config="true" duration-ms="0" started-at="2017-11-14T19:07:47Z" finished-at="2017-11-14T19:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After -->
+      </class> <!-- com.testngSample.SampleDependsTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
